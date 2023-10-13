@@ -1,11 +1,11 @@
 function solution(s){
     let result = true;
-    
-    let num = 0;
-    
-    s = s.toUpperCase();
 
-    for (let i = 0; i < s.length; i++) {
+    let num = 0
+
+    s = s.toUpperCase();
+    
+    for (let i = 0; i < s.lenght; i++) {
         if(s[i] === "P") {
             num++;
         }
@@ -19,6 +19,6 @@ function solution(s){
     } else {
         result = false;
     }
-    
+
     return result;
 }
