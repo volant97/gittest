@@ -1,7 +1,7 @@
 function solution(s){
     let result = true;
 
-    let num = 0
+    let num = 0;
 
     s = s.toUpperCase();
     
